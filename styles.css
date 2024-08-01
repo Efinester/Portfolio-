@@ -1,0 +1,175 @@
+body{
+    background-image:url(rain.gif),url(me.jpeg);
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    color:rgb(255, 255, 255);
+    font-size: 20px
+}
+#letter-E{
+    width: 20%;
+    height: 20%;
+    filter: grayscale(50%),drop-shadow(6px 5px 2px #000000);
+    border-radius: 50%;
+    
+}
+#para1-port{
+    color: orange (255, 0, 0);
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+
+}
+div.gallery{
+    margin: 20px;
+    border: 5px solid #000000;
+    float: left;
+    width: 16%;
+}
+div#space-filler{
+    display:inline-block;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 20px;
+}
+div.gallery img{
+    float: left; 
+    width: 100%;
+    height: 150px;
+}
+div.desc{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(61, 66, 66);
+}
+
+
+.clear-L{
+    clear: left;
+}
+.clear-R{
+    clear: right;
+}
+.clear-B{
+    clear: both;
+}
+
+div.container{
+    float: left;
+    width: 20%;
+}
+div.container2{
+    padding-top: 35px;
+    float: right;
+    width: 70%;
+}
+
+a#spotify{
+    color:white;
+}
+p{
+    font-size: 20spx;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+.About-Me{
+    display: block;
+    width: 70%;
+    float: right;
+    background-color: rgb(147, 147, 147);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+    height: 25%;
+}
+.My-Experience{
+    display: block;
+    width: 70%;
+    float: right;
+    background-color: rgb(49, 49, 49);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+    height: 25%;
+}
+.My-Goals{
+    display: block;
+    width: 70%;
+    float: right;
+    background-color: rgb(82, 82, 82);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+    height: 25%;
+}
+.My-Github{
+    display: block;
+    width: 70%;
+    float: right;
+    background-color: rgb(28, 28, 28);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+    height: 25%;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+.About-Me:hover{
+    display: block;
+    width: 77%;
+    float: right;
+    background-color: rgb(22, 94, 81);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+    text-align: left;
+}
+.My-Experience:hover{
+    display: block;
+    width: 77%;
+    float: right;
+    background-color: rgb(22, 94, 81);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+}
+.My-Goals:hover{
+    display: block;
+    width: 77%;
+    float: right;
+    background-color: rgb(22, 94, 81);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+}
+.My-Github:hover{
+    display: block;
+    width: 77%;
+    float: right;
+    background-color: rgb(22, 94, 81);
+    border-radius: 25px 0px 25px 0px;
+    filter: drop-shadow(6px 5px 4px black);
+    margin-bottom: 15px;
+}
+/*h1{
+    margin-left: 20px;
+}*/
+
+/*Javascript CSS*/
+/*.tab-links{
+
+}*/
+.tab-contents{
+    display: none;
+}
+/*.tab-links.active-link::after{
+
+}*/
+.tab-contents.active-tab{
+    display: block;
+}

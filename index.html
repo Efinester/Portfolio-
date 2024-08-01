@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Efis Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <img src="black.png" class="letter-E">
+        </div>
+        <div class="container2"></div>
+            <div class="About-Me tab-links active-link" onclick="expandSection('about')">
+                <h1>About Me</h1>
+                <div class="tab-contents" id="about">
+                    <p>My name is Efi Davis, I'm going into 10th, and some of the things i enjoy doing is building things codes and , and taking things apart. I also enjoy playing games like Minecraft, Halo, and many diffrent car games. I also do many extra curricular activities, I am a C/CMSgt in The air force auxilary (Civil Air Patrol),I am working on my black belt in Hapkio Martial arts, and I am a star scout in Boy Scouts.</p>
+                </div>
+            </div>
+        
+            <div class="My-Goals tab-links" onclick="expandSection('goals')">
+                <h1>My Goals</h1>
+                <div class="tab-contents" id="goals">
+                    <p>Something would like to acomplish during this program is creating my own business that makes good profit. What i want to start off in is dropshiping, and markiding diffrent products. I hope that the business I create will give me good money so that i can start a bigger compony in the future.</p>
+                </div>
+            </div>
+
+            <div class="My-Experience tab-links" onclick="expandSection('experience')">
+                <h1>My Experience</h1>
+                <div class="tab-contents" id="experience">
+                    <p>Some things i have done when it comes to enginering is, Computer Science,  Mechanical enginering, Aerospace enginering, Bio chemical enginering and more. I mainly enjoy working in the Mechanical and Aerospoace enginering feild. I just recently got back form a technology school in Tennessee and learend much more about enginering and technology. I also enjoy participating in the Hidden Genius Project, learning more about computer science and codeing. I am hoping to get a BBA/ Bachelor of Businesss Adminnistration, and create a successful busines and a young age.</p>    
+                </div>
+            </div>
+            <div class="My-Github tab-links" onclick="expandSection('projects')">
+                <h1>My Github</h1>
+                <div class="tab-contents" id="projects">        
+                    <div class="gallery">
+                        <a href="https://github.com/Efinester/Python-Projects/blob/main/temperature_converter.py">
+                            <img src="temp convert.png" alt="">
+                        </a> The temperature-converter was something a created to print in color for different data types from a color based system calculations in variables.
+                        </div>
+                    <div class="gallery">
+                        <a href="https://github.com/Efinester/Python-Projects/blob/main/rockPaperScissors.py">
+                            <img src="rock-paper-scissors.jpg" alt="">
+                        </a> This is my Rock Paper Scissors game that I coded to play against the computer. It is vary fun and you can play it for as long as you want.
+                    </div>
+        
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clear-B gallery">
+            <img src="forza.gif" alt="Forza">
+            <div class="desc">
+                <h3>Forza Horizon 5</h3>           
+            I would say one of my favorite types of games are with cars. Mainly becouse I enjoy looking and raceing cars and i also like to do drift competitions, and doing rev ups.
+
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="mine.gif" alt="Minecraft">
+            <div class="desc">
+                <h3>Minecraft</h3>
+                One of my favroit games to play is mineraft,the things i enjoy doing moast in it is Building structures and mechiens, geting stacked and overpowerd, and PVP/bedwars. 
+            
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="halo.gif" alt="Halo">
+            <div class="desc">
+                <h3>Halo Infinite</h3>
+                My favroit version of Halo is Halo Reach, I like playing with my friends and when I do we have a really fun time.
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="school.gif" alt="School">
+            <div class="desc">
+                <h3>Education</h3>
+                My education is vary imprtant to me and I vary much enjoy retaining information and being able to tell orther people. I also like to make money and work vary hard to study diffrent methods.
+            </div>
+        </div>
+        <!--<div id="space-filler"class="clear-B"></div>-->
+        <div class="gallery">
+            <a href="https://open.spotify.com " id="spotify"><img src="spot.gif" alt="Spotify"></a>
+            <div class="desc">
+                <h3>Spotify Music</h3>
+                I love listing to music evrywhere go becouse I fell that it is vary relaxing. I also enjoy makeing diffrent playlist for me and my friends. You can click this link to veiw my spotify,</a>
+        
+            </div>
+        </div>
+        <!--<div class="gallery">
+            <a href="https://github.com/Efinester/Python-Projects/blob/main/temperature_converter.py">
+                <img src="temp convert.png" alt="">
+            </a>
+        </div>
+        <div class="gallery">
+        <a href="https://github.com/Efinester/Python-Projects/blob/main/rockPaperScissors.py">
+                <img src="rock-paper-scissors.jpg" alt="">
+            </a>
+        </div>-->
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links")
+            var tabcontents=document.getElementsByClassName("tab-contents")
+
+            function expandSection(tabname){
+                for(tablink of tablinks ){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents ){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+
+            }
+        </script>
+    </body>
+</html>
